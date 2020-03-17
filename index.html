@@ -12,24 +12,54 @@
 
 <body>
   <header>
+    <!-- The Navigation bar -->
     <nav class="navigation">
       <span class="logo"><img src="img/LOGO-BD.png" class="logo" /></span>
     </nav>
+    <!-- The banner for the page  -->
     <section class="banner">
         <div class="presentation-container">
           <p class="presentation">Hello World!</p>
-          <p class="presentation">My name is Bárbara Di Niscia</p>
+          <p class="presentation">My name is <span class="rose-item">Bárbara Di Niscia</span></p>
+          <p class="presentation">I'm a Front-end Developer</p>
           <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
         </div>
         <img id="avatar" src="img/avatar.png" />
     </section> 
   </header>
-  <section class="containers">
+  <!-- Section for skills -->
+  <section class="containers"> 
+    <h2 class="headers">Skills.</h2>
+    <div class="grid-top grid-skills">
+      <div class="content-skills">
+        <img class="icon-skills" alt="icon of javascript" src="img/javascript.png" />
+        <img class="icon-skills" alt="icon of html-5" src="img/html-5.png" />
+        <img class="icon-skills" alt="icon of CSS 3" src="img/css.png" />
+        <img class="icon-skills git" alt="icon of Git" src="img/git.png" />
+        <img class="icon-skills" alt="icon of Github" src="img/github.png" />
+      </div>
+      <div class="content-skills">
+        <img class="icon-skills" alt="icon of React.js" src="img/react.png" />
+        <img class="icon-skills" alt="icon of Node.js" src="img/nodejs.png" />
+        <img class="icon-skills" alt="icon of Bootstrap" src="img/Bootstrap.png" />
+        <img class="icon-skills" alt="icon of Firebase" src="img/firebase.png" />
+      </div>
+    </div>
+  </section>
+  <!-- Section for the projects -->
+  <section class="containers"> 
     <h2 class="headers">Projects.</h2>
     <a href="https://github.com/bdiniscia/SCL012-Social-Network" class="grid-top">
       <div class="content-info">
         <h4 class="title-item black-item">Social Network</h4>
         <img id="logo-social-network" src="img/share.png"/>
+        <p class="description-project">We created a social network for foreigners recently arrived in Chile called Living in
+          Chile, to facilitate finding information about visas, house rentals and jobs.</p>
+         <p class="description-project p-created">Created with: 
+           <span><img class="icon-created" src="img/firebase.png"/></span> 
+           <span><img class="icon-created" src="img/javascript.png"/></span> 
+           <span><img class="icon-created" src="img/html-5.png"/></span> 
+           <span><img class="icon-created" src="img/css.png"/></span></p>
       </div>
     </a>
     <div class="grid-down">
@@ -47,7 +77,7 @@
       </a>
     </div>
   </section>
-  <!--Enlace JS-->
+  <!--JS-->
   <script type="text/javascript" src="app.js"></script>
 </body>
 
