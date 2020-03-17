@@ -6,7 +6,7 @@
   <title>Bárbara Di Niscia</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="coffee-maker.css">
-  <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Inter:400,900|Source+Sans+Pro&display=swap"
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Inter:400,900|Source+Sans+Pro:400,700&display=swap"
     rel="stylesheet">
 </head>
 
@@ -14,28 +14,39 @@
   <header>
     <!-- The Navigation bar -->
     <nav class="navigation">
-      <span class="logo"><img src="img/LOGO-BD.png" class="logo" /></span>
+      <div class="div-navbar">
+        <img src="img/LOGO-BD.png" class="logo" />
+        <nav class="burger">
+          <button class="nav-toggle">
+            <span class="bar-top"></span>
+            <span class="bar-mid"></span>
+            <span class="bar-bot"></span>
+          </button>
+        </nav>
+      </div>
     </nav>
     <!-- The banner for the page  -->
     <section class="banner">
-        <div class="presentation-container">
-          <p class="presentation">Hello World!</p>
-          <p class="presentation">My name is <span class="rose-item">Bárbara Di Niscia</span></p>
-          <p class="presentation">I'm a Front-end Developer</p>
-          <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+      <div class="presentation-container">
+        <p class="presentation">Hello World!</p>
+        <p class="presentation">My name is <span class="rose-item">Bárbara Di Niscia</span></p>
+        <p class="presentation">I'm a Front-end Developer</p>
+        <div class='console-container'><span id='text'></span>
+          <div class='console-underscore' id='console'>&#95;</div>
         </div>
-        <img id="avatar" src="img/avatar.png" />
-    </section> 
+      </div>
+      <img id="avatar" src="img/avatar.png" />
+    </section>
   </header>
   <!-- Section for skills -->
-  <section class="containers"> 
+  <section class="containers">
     <h2 class="headers">Skills.</h2>
     <div class="grid-top grid-skills">
       <div class="content-skills">
         <img class="icon-skills" alt="icon of javascript" src="img/javascript.png" />
         <img class="icon-skills" alt="icon of html-5" src="img/html-5.png" />
         <img class="icon-skills" alt="icon of CSS 3" src="img/css.png" />
-        <img class="icon-skills git" alt="icon of Git" src="img/git.png" />
+        <img class="icon-skills" alt="icon of Git" src="img/git.png" />
         <img class="icon-skills" alt="icon of Github" src="img/github.png" />
       </div>
       <div class="content-skills">
@@ -47,35 +58,45 @@
     </div>
   </section>
   <!-- Section for the projects -->
-  <section class="containers"> 
+  <section class="containers">
     <h2 class="headers">Projects.</h2>
-    <a href="https://github.com/bdiniscia/SCL012-Social-Network" class="grid-top">
+    <a href="https://github.com/bdiniscia/SCL012-Social-Network" target="_blank" class="grid-top">
       <div class="content-info">
         <h4 class="title-item black-item">Social Network</h4>
-        <img id="logo-social-network" src="img/share.png"/>
-        <p class="description-project">We created a social network for foreigners recently arrived in Chile called Living in
-          Chile, to facilitate finding information about visas, house rentals and jobs.</p>
-         <p class="description-project p-created">Created with: 
-           <span><img class="icon-created" src="img/firebase.png"/></span> 
-           <span><img class="icon-created" src="img/javascript.png"/></span> 
-           <span><img class="icon-created" src="img/html-5.png"/></span> 
-           <span><img class="icon-created" src="img/css.png"/></span></p>
+        <img id="logo-social-network" src="img/share.png" />
+        <p class="description-project description-project-top">We created a social network for foreigners recently arrived in Chile called "Viviendo en Chile", to facilitate finding information about visas, house rentals and jobs.</p>
+        <p class="description-project p-created">Created with:
+          <span><img class="icon-created" src="img/firebase.png" /></span>
+          <span><img class="icon-created" src="img/javascript.png" /></span>
+          <span><img class="icon-created" src="img/html-5.png" /></span>
+          <span><img class="icon-created" src="img/css.png" /></span></p>
       </div>
     </a>
     <div class="grid-down">
-      <a href="https://github.com/bdiniscia/SCL012-burger-queen" class="grid-down-1">
+      <a href="https://github.com/bdiniscia/SCL012-burger-queen" target="_blank" class="grid-down-1">
         <div class="content-info">
           <h4 class="title-item black-item">Burger Queen</h4>
-          <img id="logo-burger" src="img/fast-food.png"/>
+          <img id="logo-burger" src="img/fast-food.png" />
+          <p class="description-project description-project-bottom">Burger Queen is a platform created to help with the communication of orders between waiters and the kitchen.</p>
+          <p class="description-project p-created">Created with:
+            <span><img class="icon-created" src="img/react.png" /></span>
+            <span><img class="icon-created" src="img/firebase.png" /></span>
+            <span><img class="icon-created" src="img/javascript.png" /></span>
+            <span><img class="icon-created" src="img/html-5.png" /></span>
+            <span><img class="icon-created" src="img/css.png" /></span></p>
         </div>
-      </a>
-      <a href="https://github.com/bdiniscia/SCL012-MD-Links-" class="grid-down-2">
-        <div class="content-info">
-          <h4 class="title-item white-item">MD Links</h4>
-          <img id="logo-terminal" src="img/computing.png"/>
-        </div>
-      </a>
-    </div>
+    </a>
+    <a href="https://github.com/bdiniscia/SCL012-MD-Links-" target="_blank" class="grid-down-2">
+      <div class="content-info">
+        <h4 class="title-item white-item">MD Links</h4>
+        <img id="logo-terminal" src="img/computing.png" />
+        <p class="description-project description-project-bottom white-item">It's a library that detects the links of the Markdown files, offers statistics on whether they are broken and their error messages.</p>
+          <p class="description-project p-created white-item">Created with:
+            <span><img class="icon-created" src="img/nodejs.png" /></span>
+            <span><img class="icon-created" src="img/javascript.png" /></span></p>
+      </div>
+    </a>
+  </div>
   </section>
   <!--JS-->
   <script type="text/javascript" src="app.js"></script>

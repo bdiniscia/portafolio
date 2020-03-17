@@ -49,4 +49,14 @@ function consoleText(words, id, colors) {
     }
   }, 400)
 }
+
+
+(function () {
+	var toggle = document.querySelector('.nav-toggle');
+	
+	toggle.addEventListener('click', function(e) {
+	  this.classList.toggle('opened');
+	});
+  })();
+  
 	
