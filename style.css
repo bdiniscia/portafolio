@@ -65,7 +65,7 @@
 
 
 .grid-top {
-	height: 32em;
+	height: 33em;
 	width: 100%;
 	background-color: #A8E0FF;
 }
@@ -84,6 +84,8 @@
 	width: 50%;
 	height: 30em;
 	background-color: #046e8f;
+	display: flex;
+    justify-content: center;
 }
 
 a {
@@ -100,6 +102,12 @@ a {
 	align-items: center;
 }
 
+.content-contact {
+	display: flex;
+	flex-direction: column;
+	margin: 4em 3em 0 3em;
+}
+
 .content-skills {
 	display:flex;
 	align-items: center;
@@ -110,6 +118,14 @@ a {
 .grid-skills {
 	background-color: #f59797;
 	height: 27em;
+}
+
+.grid-pink {
+	background-color: #f59797;
+}
+
+.grid-lightblue {
+	background-color: #A8E0FF;
 }
 
 .icon-skills {
@@ -146,9 +162,6 @@ a {
 	color: #f59797;
 }
 
-.burger {
-
-}
 
 .description-project {
 	font-family: 'Source Sans Pro';
@@ -173,6 +186,30 @@ a {
 	font-weight: bold;
 	font-size: 19px;
 	font-weight: bold;
+	display: flex;
+	align-items: center;
+}
+
+.coffee {
+	display: flex;
+	height: 17em;
+}
+
+.contact-icon {
+	height: 4em;
+    margin-right: 1.5em;
+}
+
+.contact-icon-div {
+	margin-top: 1em;
+}
+
+#a-mail:hover {
+	color: rgb(95, 98, 105);
+}
+
+.span-created {
+	margin-right: 0.5em;
 }
 
 .hidden {
