@@ -169,7 +169,7 @@ a {
 }
 
 .description-project-top {
-	margin: 1em 14em;
+	margin: 1em 10em;
 }
 
 .description-project-bottom {
@@ -192,7 +192,7 @@ a {
 
 .coffee {
 	display: flex;
-	height: 17em;
+	height: 50%;
 }
 
 .contact-icon {
@@ -202,6 +202,10 @@ a {
 
 .contact-icon-div {
 	margin-top: 1em;
+}
+
+#a-mail {
+	font-size: 40px;
 }
 
 #a-mail:hover {
