@@ -58,14 +58,14 @@
     letter-spacing: -0.02em;
     text-align: left;
 	z-index: 10;
-	margin-bottom: -0.35em;
+	margin-bottom: -0.35em;;
 	align-self: flex-start;
 	color: #2E3138;
 }
 
 
 .grid-top {
-	height: 33em;
+	height: 35em;
 	width: 100%;
 	background-color: #A8E0FF;
 }
@@ -76,13 +76,13 @@
 
 .grid-down-1 {
 	width: 50%;
-	height: 30em;
+	height: 34em;
 	background-color: #ffc857;
 }
 
 .grid-down-2 {
 	width: 50%;
-	height: 30em;
+	height: 34em;
 	background-color: #046e8f;
 	display: flex;
     justify-content: center;
@@ -96,7 +96,6 @@ a {
 .content-info {
 	display: flex;
 	justify-content: center;
-	margin-top: 2em;
 	color: #2E3138;
 	flex-direction: column;
 	align-items: center;
@@ -126,6 +125,19 @@ a {
 
 .grid-lightblue {
 	background-color: #A8E0FF;
+}
+
+.links-project {
+	display: flex;
+}
+
+.icons-links {
+	height: 2.8em;
+    margin: 0 1.2em;
+}
+
+.icons-links-white {
+	filter: invert(100%) sepia(0%) saturate(7459%) hue-rotate(45deg) brightness(114%) contrast(109%);
 }
 
 .icon-skills {
@@ -284,3 +296,4 @@ a {
 	-webkit-transform-origin: 15% 95%;
 			transform-origin: 15% 95%;
   }
+

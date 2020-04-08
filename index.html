@@ -8,6 +8,7 @@
   <meta name="author" content="Barbara Di Niscia">
   <title>Bárbara Di Niscia</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="img/avatar.ico">
   <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Inter:400,900|Source+Sans+Pro:400,700&display=swap"
     rel="stylesheet">
 </head>
@@ -46,7 +47,7 @@
     <h2 class="headers">Skills.</h2>
     <div class="grid-top grid-skills">
       <div class="content-skills">
-        <img class="icon-skills" alt="icon of javascript" src="img/javascript.png" />
+        <img class="icon-skills" alt="icon of javascript" src="img/JavaScript-logo.png" />
         <img class="icon-skills" alt="icon of html-5" src="img/html-5.png" />
         <img class="icon-skills" alt="icon of CSS 3" src="img/css.png" />
         <img class="icon-skills" alt="icon of Git" src="img/git.png" />
@@ -64,71 +65,91 @@
   <!-- Section for the projects -->
   <section class="containers">
     <h2 class="headers">Projects.</h2>
-    <a href="https://github.com/bdiniscia/SCL012-Social-Network" target="_blank" class="grid-top">
-      <div class="content-info">
-        <h4 class="title-item black-item">Social Network</h4>
-        <img alt="Cartoon of people connecting. Logo for the Social Network" id="logo-social-network" src="img/share.png" />
-        <p class="description-project description-project-top">We created a social network for foreigners recently arrived in Chile called "Viviendo en Chile", to facilitate finding information about visas, house rentals and jobs.</p>
+    <div class="grid-top content-info">
+      <h4 class="title-item black-item">Social Network</h4>
+      <img alt="Cartoon of people connecting. Logo for the Social Network" id="logo-social-network"
+        src="img/share.png" />
+      <p class="description-project description-project-top">We created a social network for foreigners recently arrived
+        in Chile called "Viviendo en Chile", to facilitate finding information about visas, house rentals and jobs.</p>
+      <p class="description-project p-created"><span class="span-created">Created with:</span>
+        <span><img class="icon-created" alt="icon of Firebase" src="img/firebase.png" /></span>
+        <span><img class="icon-created" alt="icon of javascript" src="img/JavaScript-logo.png" /></span>
+        <span><img class="icon-created" alt="icon of HTML 5" src="img/html-5.png" /></span>
+        <span><img class="icon-created" alt="icon of CSS 3" src="img/css.png" /></span>
+      </p>
+      <div class="links-project">
+        <a href="https://red-social-94f04.firebaseapp.com/#/SignUp" target="_blank"><img class="icons-links"
+            alt="link for the deploy" src="img/tv.png" /></a>
+        <a href="https://github.com/bdiniscia/SCL012-Social-Network" target="_blank"><img class="icons-links"
+            alt="icon for the code" src="img/coding.png" /></a>
+      </div>
+    </div>
+    <div class="grid-down">
+      <div class="content-info grid-down-1">
+        <h4 class="title-item black-item">Burger Queen</h4>
+        <img alt="Cartoon of a burger with a drink. Logo for the Burger Queen project" id="logo-burger"
+          src="img/fast-food.png" />
+        <p class="description-project description-project-bottom">Burger Queen is a platform created to help with the
+          communication of orders between waiters and the kitchen.</p>
         <p class="description-project p-created"><span class="span-created">Created with:</span>
+          <span><img class="icon-created" alt="icon of React.js" src="img/react.png" /></span>
           <span><img class="icon-created" alt="icon of Firebase" src="img/firebase.png" /></span>
-          <span><img class="icon-created" alt="icon of javascript" src="img/javascript.png" /></span>
+          <span><img class="icon-created" alt="icon of javascript" src="img/JavaScript-logo.png" /></span>
           <span><img class="icon-created" alt="icon of HTML 5" src="img/html-5.png" /></span>
           <span><img class="icon-created" alt="icon of CSS 3" src="img/css.png" /></span>
         </p>
-      </div>
-    </a>
-    <div class="grid-down">
-      <a href="https://github.com/bdiniscia/SCL012-burger-queen" target="_blank" class="grid-down-1">
-        <div class="content-info">
-          <h4 class="title-item black-item">Burger Queen</h4>
-          <img alt="Cartoon of a burger with a drink. Logo for the Burger Queen project" id="logo-burger" src="img/fast-food.png" />
-          <p class="description-project description-project-bottom">Burger Queen is a platform created to help with the communication of orders between waiters and the kitchen.</p>
-          <p class="description-project p-created"><span class="span-created">Created with:</span>
-            <span><img class="icon-created" alt="icon of React.js" src="img/react.png" /></span>
-            <span><img class="icon-created" alt="icon of Firebase" src="img/firebase.png" /></span>
-            <span><img class="icon-created" alt="icon of javascript" src="img/javascript.png" /></span>
-            <span><img class="icon-created" alt="icon of HTML 5" src="img/html-5.png" /></span>
-            <span><img class="icon-created" alt="icon of CSS 3" src="img/css.png" /></span></p>
+        <div class="links-project">
+          <a href="https://burger-queen-f6c33.firebaseapp.com/" target="_blank"><img class="icons-links"
+              alt="link for the deploy" src="img/tv.png" /></a>
+          <a href="https://github.com/bdiniscia/SCL012-burger-queen" target="_blank"><img class="icons-links"
+              alt="icon for the code" src="img/coding.png" /></a>
         </div>
-    </a>
-    <a href="https://github.com/bdiniscia/SCL012-MD-Links-" target="_blank" class="grid-down-2">
-      <div class="content-info">
+      </div>
+      <div class="content-info grid-down-2">
         <h4 class="title-item white-item">MD Links</h4>
-        <img alt="Cartoon of a computer terminal. Logo for MD Links project" id="logo-terminal" src="img/computing.png" />
-        <p class="description-project description-project-bottom white-item">It's a library that detects the links of the Markdown files, offers statistics on whether they are broken and their error messages.</p>
-          <p class="description-project p-created white-item"><span class="span-created">Created with:</span>
-            <span><img alt="icon of Node.js" class="icon-created" src="img/nodejs.png" /></span>
-            <span><img alt="icon of javascript" class="icon-created" src="img/javascript.png" /></span></p>
-      </div>
-    </a>
-  </div>
-  </section>
-
-    <!-- Section for contact -->
-    <section class="containers">
-      <h2 class="headers">Say hi.</h2>
-      <div class="grid-down">
-        <div class="grid-down-1 grid-lightblue">
-          <div class="content-contact">
-            <a href="mailto:bdiniscia@gmail.com">
-              <h4 id="a-mail" class="title-item black-item">bdiniscia@gmail.com</h4>
-            </a>
-            <p class="description-project">You can also reach me at:</p>
-            <div class="contact-icon-div">
-              <a href="https://www.linkedin.com/in/bdiniscia/" target="_blank">
-                <img alt="Icon of Linkedin" class="contact-icon" src="img/linkedin.png">
-              </a>
-              <a href="https://github.com/bdiniscia/" target="_blank">
-                <img alt="Icon of Github" class="contact-icon" src="img/github-1.png">
-              </a>
-            </div>
-          </div>
+        <img alt="Cartoon of a computer terminal. Logo for MD Links project" id="logo-terminal"
+          src="img/computing.png" />
+        <p class="description-project description-project-bottom white-item">It's a library that detects the links of
+          the Markdown files, offers statistics on whether they are broken and their error messages.</p>
+        <p class="description-project p-created white-item"><span class="span-created">Created with:</span>
+          <span><img alt="icon of Node.js" class="icon-created" src="img/nodejs.png" /></span>
+          <span><img alt="icon of javascript" class="icon-created" src="img/JavaScript-logo.png" /></span>
+        </p>
+        <div class="links-project">
+          <a href="https://www.npmjs.com/package/md-links-bdiniscia" target="_blank"><img class="icons-links"
+              alt="link for the deploy" src="img/npm.png" /></a>
+          <a href="https://github.com/bdiniscia/SCL012-MD-Links-" target="_blank"><img class="icons-links icons-links-white"
+              alt="icon for the code" src="img/coding.png" /></a>
         </div>
-      <div class="grid-down-2 grid-pink">
-        <img alt="Photo of a cup of coffee" src="img/cup-coffee.png" class="coffee"/>
       </div>
     </div>
-    </section>
+  </section>
+
+  <!-- Section for contact -->
+  <section class="containers">
+    <h2 class="headers">Say hi.</h2>
+    <div class="grid-down">
+      <div class="grid-down-1 grid-lightblue">
+        <div class="content-contact">
+          <a href="mailto:bdiniscia@gmail.com">
+            <h4 id="a-mail" class="title-item black-item">bdiniscia@gmail.com</h4>
+          </a>
+          <p class="description-project">You can also reach me at:</p>
+          <div class="contact-icon-div">
+            <a href="https://www.linkedin.com/in/bdiniscia/" target="_blank">
+              <img alt="Icon of Linkedin" class="contact-icon" src="img/linkedin.png">
+            </a>
+            <a href="https://github.com/bdiniscia/" target="_blank">
+              <img alt="Icon of Github" class="contact-icon" src="img/github-1.png">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="grid-down-2 grid-pink">
+        <img alt="Photo of a cup of coffee" src="img/cup-coffee.png" class="coffee" />
+      </div>
+    </div>
+  </section>
 
   <!--JS-->
   <script type="text/javascript" src="app.js"></script>
