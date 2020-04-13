@@ -216,7 +216,7 @@ a {
 }
 
 #a-mail {
-	font-size: 40px;
+	font-size: 36px;
 }
 
 #a-mail:hover {
@@ -280,13 +280,6 @@ a {
 .hvr-grow:focus,
 .hvr-grow:active {
     transform: scale(1.1);
-}
-
-@media (max-width: 1020px) {
-	.coffee {
-		height: 50%;
-		width: 100%;
-	}
 }
 
 /* Buzz Out */
@@ -412,6 +405,7 @@ a {
 
 /* Navigation bar */
   .snip1164 {
+	display: block;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -482,4 +476,45 @@ a {
 
   .snip1164 .blue-a:after {
 	background-color: #046e8f;
+  }
+
+@media (max-width: 1020px) {
+	.coffee {
+		height: 50%;
+		width: 100%;
+	}
+};
+
+@media screen and (max-width: 700px) {
+	.snip1164 {
+		display: none;
+	}
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+	font-family: 'Source Sans Pro', sans-serif;
+	visibility: hidden;
+	width: 120px;
+	background-color: #fff;
+	color: #2E3138;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	margin-top: 0.5em;
+	
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: 100%;
+	left: 50%;
+	margin-left: -60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
   }
