@@ -282,13 +282,6 @@ a {
     transform: scale(1.1);
 }
 
-@media (max-width: 1020px) {
-	.coffee {
-		height: 50%;
-		width: 100%;
-	}
-}
-
 /* Buzz Out */
   @-webkit-keyframes hvr-buzz-out {
 	10% {
@@ -412,6 +405,7 @@ a {
 
 /* Navigation bar */
   .snip1164 {
+	display: block;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -483,3 +477,16 @@ a {
   .snip1164 .blue-a:after {
 	background-color: #046e8f;
   }
+
+@media (max-width: 1020px) {
+	.coffee {
+		height: 50%;
+		width: 100%;
+	}
+};
+
+@media screen and (max-width: 700px) {
+	.snip1164 {
+		display: none;
+	}
+}
