@@ -498,6 +498,7 @@ a {
   
   .tooltip .tooltiptext {
 	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
 	visibility: hidden;
 	width: 120px;
 	background-color: #fff;
