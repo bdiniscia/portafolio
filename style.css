@@ -65,7 +65,7 @@
 
 
 .grid-top {
-	height: 35em;
+	height: 32em;
 	width: 100%;
 	background-color: #A8E0FF;
 }
@@ -86,6 +86,10 @@
 	background-color: #046e8f;
 	display: flex;
     justify-content: center;
+}
+
+.grid-pink {
+	background-color: #f59797;
 }
 
 a {
@@ -126,6 +130,10 @@ a {
 	background-color: #A8E0FF;
 }
 
+.grid-yellow {
+	background-color: #ffc857;
+}
+
 .links-project {
 	display: flex;
 }
@@ -137,6 +145,10 @@ a {
 
 .icons-links-white {
 	filter: invert(100%) sepia(0%) saturate(7459%) hue-rotate(45deg) brightness(114%) contrast(109%);
+}
+
+.icon-expo {
+	height: 2.3em;
 }
 
 .icon-skills {
@@ -152,6 +164,10 @@ a {
 }
 
 #logo-terminal {
+	height: 8em;
+}
+
+#logo-location {
 	height: 8em;
 }
 
