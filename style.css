@@ -405,35 +405,34 @@ a {
 	-webkit-transition-property: transform;
 	transition-property: transform;
   }
-  .hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
-	-webkit-transform: scale(1.1) rotate(4deg);
-	transform: scale(1.1) rotate(4deg);
-  }
+.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+-webkit-transform: scale(1.1) rotate(4deg);
+transform: scale(1.1) rotate(4deg);
+}
 
 
 /* Navigation bar */
-  .snip1164 {
-	display: block;
+  #snip1164 {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 500;
 	font-family: 'Source Sans Pro', sans-serif;
   }
   
-  .snip1164 * {
+  #snip1164 * {
 	box-sizing: border-box;
 	-webkit-transition: all 0.35s ease;
 	transition: all 0.35s ease;
   }
   
-  .snip1164 li {
+  #snip1164 li {
 	display: inline-block;
 	list-style: outside none none;
 	margin: 0 0.8em;
 	overflow: hidden;
   }
   
-  .snip1164 a {
+  #snip1164 a {
 	padding: 0.3em 0.8em;
 	color: #2E3138;
 	position: relative;
@@ -443,14 +442,14 @@ a {
 	text-decoration: none;
   }
   
-  .snip1164 a:before,
-  .snip1164 a:after {
+  #snip1164 a:before,
+  #snip1164 a:after {
 	position: absolute;
 	-webkit-transition: all 0.35s ease;
 	transition: all 0.35s ease;
   }
   
-  .snip1164 a:before {
+  #snip1164 a:before {
 	bottom: 100%;
 	display: block;
 	height: 3px;
@@ -458,7 +457,7 @@ a {
 	content: "";
   }
   
-  .snip1164 a:after {
+  #snip1164 a:after {
 	padding: 0.3em 0.8em;
 	position: absolute;
 	bottom: 100%;
@@ -469,34 +468,22 @@ a {
 	background-color: #f59797;
   }
   
-  .snip1164 li:hover a,
-  .snip1164 .current a {
+  #snip1164 li:hover a,
+  #snip1164 .current a {
 	transform: translateY(100%);
   }
   
-  .snip1164 .yellow-a:after {
+  #snip1164 .yellow-a:after {
 	background-color: #ffc857;
   }
 
-  .snip1164 .light-blue-a:after {
+  #snip1164 .light-blue-a:after {
 	background-color: #A8E0FF;
   }
 
-  .snip1164 .blue-a:after {
+  #snip1164 .blue-a:after {
 	background-color: #046e8f;
   }
-
-@media (max-width: 1020px) {
-	.coffee {
-		width: 100%;
-	}
-};
-
-@media screen and (max-width: 700px) {
-	.snip1164 {
-		display: none;
-	}
-}
 
 .tooltip {
 	position: relative;
@@ -526,3 +513,37 @@ a {
   .tooltip:hover .tooltiptext {
 	visibility: visible;
   }
+
+  .CVResponsive {
+	  display: none;
+  }
+
+  .linkCVResponsive {
+	background-color: #046e8f;
+	letter-spacing: 1px;
+	margin: 0;
+	text-decoration: none;
+	padding: 0.3em 0.8em;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 26px;
+}
+
+
+@media (max-width: 1030px) {
+	.coffee {
+		width: 100%;
+	}
+
+	#snip1164 {
+		display: none;
+	}
+
+	.CVResponsive {
+		display: block;
+	}
+	
+}
